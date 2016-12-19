@@ -1,0 +1,33 @@
+IONOLAB-TEC REFERENCES
+--------------------------
+
+IONOLAB-TEC Web Service
+
+1. Sezen U., Arikan F., Arikan O., Ugurlu O., Sadeghimorad A., "Online, automatic, near-real time estimation of GPS-TEC: IONOLAB-TEC," 
+   Space Weather, 11(5), 297-305., 2013, doi: 10.1002/swe.20054. 
+
+IONOLAB-BIAS (Receiver Differential Code Bias) used in IONOLAB-TEC
+
+2. Arikan F., Nayir H., Sezen U., Arikan O., "Estimation of single station interfrequency receiver bias using GPS-TEC," 
+   Radio Science, 43(4), RS4004, 2008, 10.1029/2007RS003785.
+
+IONOLAB-TEC Regularization Algorithm
+
+3. Arikan F., Erol C.B., Arikan O., "Regularized estimation of vertical total electron content from Global Positioning System data," 
+   Journal of Geophysical Research: Space Physics, 108(A12), 2003, doi:10.1029/2002JA009605.
+4. Arikan F., Erol C.B., Arikan O., "Regularized estimation of vertical total electron content from GPS data for a desired time period," 
+   Radio Science, 39(6), 2004, doi: 10.1029/2004RS003061.
+5. Arikan F., Arikan O., Erol C.B., "Regularized estimation of TEC from GPS data for certain midlatitude stations and comparison with the IRI model," 
+   Advances in Space Research, 39(5):867-74, 2007, doi: 10.1016/j.asr.2007.01.082.
+6. Erol C.B., Arikan F., Arikan O., "A new technique for TEC estimation," 
+   in Geoscience and Remote Sensing Symposium, 2002. IGARSS'02 2002 IEEE International (Vol. 2, pp. 1284-1286), Toronto, Canada, Jun 2002
+
+Other research behind IONOLAB-TEC
+
+7. Nayir H., Arikan F., Arikan O., Erol C.B., "Total electron content estimation with Reg-Est," 
+   Journal of Geophysical Research: Space Physics, 112(A11), 2007, doi: 10.1029/2007JA012459. 
+8. Arikan F., Sezen U., Arikan O.,Ugurlu O., Nayir H., "Space weather activities of IONOLAB group: IONOLAB-TEC," 
+   in EGU General Assembly 2009 Conference Abstracts (Vol. 11, p. 5188), Vienna, Austria, Apr 2009. 
+9. Sezen U., Arikan F., "A novel algorithm for cycle slip detection and repair," 
+   in EGU General Assembly 2012 Conference Abstracts (Vol. 14, p. 7586), Vienna, Austria, Apr 2012. 
+

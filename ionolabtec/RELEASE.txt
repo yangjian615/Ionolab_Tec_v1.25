@@ -1,0 +1,74 @@
+ionolabtecfull v1.25
+------------------------
+  - Fixed the broken 'receiver_coords.txt' file
+  - Adjusted regularization median filter size.
+  - Changed elevation threshold angle in TEC calculation and regularization
+
+ionolabtec v1.24
+-------------------------
+  - Added receiver_bias compensation mechanisms to eliminate negative VTEC values
+  
+ionolabtec v1.23
+-------------------------
+  - Fixed readobsfile MEX file for some corrupted files and some files ending with 'END OF LINE' line.
+
+ionolabtec v1.22
+-------------------------
+  - Fixed versioning bug in v1.20 and other small changes
+  
+ionolabtec v1.20
+-------------------------
+  - Increased the speed of regularization for fragmented days according to v1.19
+  - Ignored the last and the first samples before interpolation of fragmented parts
+  
+ionolabtec v1.19
+-------------------------
+  - Removed the derailing samples from both ends of the fragmented parts (partial day) after regularized TEC calculation
+  - Fixed a bug occuring during the interpolation of fragmented TEC values
+  
+ionolabtec v1.18
+-------------------------
+  - Fixed a file reading bug occuring in some compressed (with ncompress) input files (i.e., some *.Z files)
+  
+ionolabtec v1.17
+-------------------------
+  - Added support for fully reading problematic RINEX2 and RINEX3 files where the header information changes in the middle of the file
+  
+ionolabtec v1.16
+-------------------------
+  - Gets as much information as possible from the problematic RINEX 2 files where the header information changes in the middle of the file
+
+ionolabtec v1.14
+-------------------------
+  - Fixed reading corrupted RINEX files where the data is written over itself
+  - Fixed SEGV error while reading problematic RINEX files where number and type of observations change within the file
+
+ionolabtec v1.13
+-------------------------
+  - Corrected TEC calculation for small segments when the input data is segmented
+  - Fixed waiting forever while reading corrupted RINEX files
+  
+ionolabtec v1.12
+-------------------------
+  - Fixed a SEGV bug occuring when reading DCB bias files when GPS PRN numbers greater than 32.
+
+ionolabtec v1.11
+-------------------------
+  - Fixed the calculation of UTC offset
+
+ionolabtec v1.10
+-------------------------
+  - Generates error when P1-P2 (or P1-C1) satellite differential code biases (DCB) are not available.
+
+ionolabtec v1.9
+-------------------------
+  - Fixed a bug introduced in v1.8 (a bug preventing the download of some necessary DCB files).
+   
+ionolabtec v1.8
+-------------------------
+  - Fixed some bugs and whole computation structure is reorganized
+
+ionolabtec v1.0
+-------------------------
+  - Supports RINEX 2.11 and RINEX 3.0x files
+  - Supports text output

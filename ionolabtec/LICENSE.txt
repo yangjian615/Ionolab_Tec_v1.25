@@ -1,0 +1,11 @@
+IONOLABTEC v1.25
+--------------------------
+Copyright (c) 2016 IONOLAB Group, Hacettepe University, Ankara.
+
+IONOLABTEC executable is provided for non-commercial purposes only. Commercial usage is prohibited, that is, 
+it cannot be included in (or bundled with) any commercial product, and any outputs (TEC etc.) produced by the 
+software cannot be sold or used in any commercial product.
+
+This disclaimer applies to all versions prior to and including v1.25.
+
+Please use the references provided in the REFERENCES.txt to cite, if you use IONOLABTEC output in your research.
